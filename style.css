@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(OIP.png);
+  background-position:center;
+  background-size: cover;
+  position: relative;
+  color:#fff;
+  font-size: 20px;
+  font-family: Georgia;
+}
+nav{
+  display:flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+nav img{
+  width: 80px;
+
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+
+}
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: yellow;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+
+
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+.text-box{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-family: Georgia;
+}
+.text-box h1{
+  font-size: 62px;
+
+
+}
+.References{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Georgia;
+
+}
+h1{
+  font-size: 36px;
+  font-weight: 600;
+
+}
+p{
+  color:#fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+
+}
+.ref-rol{
+  flex-basis:32%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position:relative;
+  overflow: hidden;
+
+}
+
+.ref-rol img{
+  height:100;
+  width: 100;
+
+}
+.layer{
+  background: transparent;
+  height: 100%;
+  width:100%;
+  position: center;
+  top: 0;
+  left:0;
+  transition: 0.5s;
+}
+.layer:hover{
+  background: rgba(226, 128, 0, 0.7);
+}
+.reff{
+  flex-basis:10%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position:center;
+  overflow: hidden;
+}
+.reff img{
+  width: 80;
+  height:20;
+}
+
+.layer{
+  background: transparent;
+  height: 100%;
+  width:100%;
+  position: center;
+  top: 0;
+  left:0;
+  transition: 0.5s;
+}
+.ref-rol1{
+  flex-basis:10%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  position:center;
+  overflow: hidden;
+}
+.ref-rol1 img{
+ width: 100;
+  height:600;
+}
+
+.layer1{
+  background: transparent;
+  height: 80%;
+  width: 100%;
+  position: center;
+  top: 100;
+  left:100;
+  transition: 0.5s;
+}
+.layer1:hover{
+  background: rgba(226, 128, 0, 0.7);
+}
+.layer h3{
+  width: 100%;
+  font-weight: 500;
+  color:#fff;
+  font-size:26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+
+}
+.layer:hover h3{
+  bottom: 49%;
+  opacity: 1;
+}
+
+
+.header2{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(rubicks-500.png);
+  background-position:center;
+  background-size: cover;
+  position: relative;
+  color:#fff;
+  font-size: 20px;
+  font-family: Georgia;
+}
+.summ{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.p1{
+  color:black;
+  font-size: 20px;
+  line-height: 22px;
+  padding: 10px;
+  line-height: 22px; 
+  margin-top:80px;
+  margin-bottom:20px;
+}
+.header3{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(rubiks.png);
+  background-position:center;
+  background-size: cover;
+  position: relative;
+  color:#fff;
+  font-size: 20px;
+  font-family: Georgia;
+}
+.inter{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  font-family: Georgia;
+}
+.header4{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(man\ throwing\ cube.png);
+  background-position:center;
+  background-size: cover;
+  position: relative;
+  color:#fff;
+  font-size: 20px;
+  font-family: Georgia;
+}
+.Pod{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Georgia;
+}
+.ref-rol2{
+  flex-basis:10%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  position:center;
+  overflow: hidden;
+}
+.ref-rol2 img{
+  width: 100;
+   height:600;
+ }
+ .layer2{
+  background: transparent;
+  height: 80%;
+  width: 100%;
+  position: center;
+  top: 100;
+  left:100;
+  transition: 0.5s;
+}
+.layer2:hover{
+  background: rgba(226, 128, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+  
